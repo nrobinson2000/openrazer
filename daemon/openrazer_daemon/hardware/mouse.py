@@ -883,10 +883,10 @@ class RazerLanceheadTE(__RazerDevice):
 
     # TODO: Need to find proper images (transparent bg)
 
-    #RAZER_URLS = {
+    # RAZER_URLS = {
     #    "top_img": "https://d1urewwzb2qwii.cloudfront.net/sys-master/root/h5e/h0b/8888236245022",
     #    "side_img": "https://d1urewwzb2qwii.cloudfront.net/sys-master/root/h28/hc5/8888234311710",
     #    "perspective_img": "https://d1urewwzb2qwii.cloudfront.net/sys-master/root/h84/hb3/8888234868766"
-    #}
+    # }
 
     DPI_MAX = 16000
