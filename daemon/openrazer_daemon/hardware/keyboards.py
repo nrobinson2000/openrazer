@@ -425,7 +425,7 @@ class RazerBlackWidowXTournamentEditionChroma(_RippleKeyboard):
     EVENT_FILE_REGEX = re.compile(r'.*BlackWidow_X_Tournament_Edition_Chroma(-if01)?-event-kbd')
 
     USB_VID = 0x1532
-    USB_PID = 0x021a
+    USB_PID = 0x021A
     HAS_MATRIX = True
     MATRIX_DIMS = [6, 22]
     METHODS = ['get_device_type_keyboard', 'set_wave_effect', 'set_static_effect', 'set_spectrum_effect',
@@ -454,7 +454,7 @@ class RazerBladeStealth(_RippleKeyboard):
     MATRIX_DIMS = [6, 22]
     METHODS = ['get_device_type_keyboard', 'set_wave_effect', 'set_static_effect', 'set_spectrum_effect',
                'set_reactive_effect', 'set_none_effect', 'set_breath_random_effect', 'set_breath_single_effect', 'set_breath_dual_effect',
-               'set_custom_effect', 'set_key_row'
+               'set_custom_effect', 'set_key_row',
 
                'set_ripple_effect', 'set_ripple_effect_random_colour', 'get_logo_active', 'set_logo_active']
 
@@ -611,7 +611,7 @@ class RazerOrnataChroma(_RippleKeyboard):
     EVENT_FILE_REGEX = re.compile(r'.*Ornata_Chroma(-if01)?-event-kbd')
 
     USB_VID = 0x1532
-    USB_PID = 0x021e
+    USB_PID = 0x021E
     HAS_MATRIX = True
     WAVE_DIRS = (0, 1)
     MATRIX_DIMS = [6, 22]
@@ -636,7 +636,7 @@ class RazerCynosaChroma(_RippleKeyboard):
     EVENT_FILE_REGEX = re.compile(r'.*Cynosa_Chroma(-if01)?-event-kbd')
 
     USB_VID = 0x1532
-    USB_PID = 0x022a
+    USB_PID = 0x022A
     HAS_MATRIX = True
     WAVE_DIRS = (0, 1)
     MATRIX_DIMS = [6, 22]
@@ -659,12 +659,12 @@ class RazerOrnata(_RippleKeyboard):
     EVENT_FILE_REGEX = re.compile(r'.*Ornata(-if01)?-event-kbd')
 
     USB_VID = 0x1532
-    USB_PID = 0x021f
+    USB_PID = 0x021F
     HAS_MATRIX = True
     WAVE_DIRS = (0, 1)
     MATRIX_DIMS = [6, 22]
     METHODS = ['get_device_type_keyboard', 'set_wave_effect', 'set_static_effect',
-               'set_reactive_effect', 'set_none_effect', 'set_breath_single_effect'
+               'set_reactive_effect', 'set_none_effect', 'set_breath_single_effect',
                'set_custom_effect', 'set_key_row', 'get_game_mode', 'set_game_mode', 'get_macro_mode', 'set_macro_mode', 'set_breath_single_effect',
                'get_macro_effect', 'set_macro_effect', 'get_macros', 'delete_macro', 'add_macro',
                'set_starlight_single_effect', 'set_ripple_effect', 'set_ripple_effect_random_colour']
@@ -683,7 +683,7 @@ class RazerAnansi(_MacroKeyboard):
     EVENT_FILE_REGEX = re.compile(r'.*Anansi(-if01)?-event-kbd')
 
     USB_VID = 0x1532
-    USB_PID = 0x010f
+    USB_PID = 0x010F
     DEDICATED_MACRO_KEYS = True
     METHODS = ['get_device_type_keyboard',
                'get_game_mode', 'set_game_mode', 'get_macro_mode', 'set_macro_mode', 'get_macro_effect',
